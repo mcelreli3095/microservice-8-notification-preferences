@@ -1,5 +1,7 @@
 **Microservice 8 — Notification Preferences**
+
 **User Story 1 — Manage Notification Preferences**
+
 As a user, I want to update my notification preferences so that I only receive the types of alerts that matter to me.
 
 **Acceptance Criteria**
@@ -13,6 +15,7 @@ As a user, I want to update my notification preferences so that I only receive t
 - Reliability: Saves changes atomically to prevent partial updates.
 
 **User Story 2 — Retrieve Notification Preferences**
+
 As a developer, I want to request a user’s current notification settings so that my application can display or modify them.
 
 **Acceptance Criteria**
