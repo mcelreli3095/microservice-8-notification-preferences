@@ -11,7 +11,7 @@ app.post("/updatePreferences", (req, res) => {
     if (!userId) return res.status(400).json({ error: "Missing userId" });
     if (typeof email !== "boolean") return res.status(400).json({ error: "Email must be boolean" });
     if (!frequency) return res.status(400).json({ error: "Missing frequency" });
-    if (!Array.isArray(categories)) return res.status(400).json({ error: "Categories must be array" });
+    if (!Array.isArray(categories)) return res.status(400).json({ error: "Categories must be an array" });
 
     preferences[userId] = { email, frequency, categories };
     res.json({ success: true, preferences: preferences[userId] });
