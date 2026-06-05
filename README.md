@@ -1,4 +1,5 @@
 **Microservice 8 — Notification Preferences**
+
 **User Story 1 — Manage Notification Preferences**
 As a user, I want to update my notification preferences so that I only receive the types of alerts that matter to me.
 
